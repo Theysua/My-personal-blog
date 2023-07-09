@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>个人博客</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+    }
+    
+    .sidebar {
+      width: 200px;
+      background-color: #f1f1f1;
+      padding: 20px;
+    }
+    
+    .main {
+      flex: 1;
+      padding: 0 20px;
+    }
+    
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+    
+    .profile {
+      margin-bottom: 20px;
+    }
+    
+    .profile-image {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    
+    .profile-name {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .profile-description {
+      font-style: italic;
+      color: #888;
+    }
+    
+    .articles {
+      margin-bottom: 40px;
+    }
+    
+    .article {
+      margin-bottom: 20px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .article-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .article-date {
+      font-style: italic;
+      color: #888;
+      margin-bottom: 10px;
+    }
+    
+    .article-content {
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <div class="profile">
+      <img class="profile-image" src="profile.jpg" alt="个人头像">
+      <h2 class="profile-name">不愿意透露姓名的程先生</h2>
+      <p class="profile-description">Magic万事屋创始人之一，致力于传播GPT时代的开发方式</p>
+    </div>
+    <h2>其他选项</h2>
+    <ul>
+      <li><a href="#">关于我</a></li>
+      <li><a href="#">联系方式</a></li>
+      <li><a href="#">技术笔记</a></li>
+    </ul>
+  </div>
+  
+  <div class="main">
+    <header>
+      <h1>个人博客</h1>
+    </header>
+    
+    <div class="articles">
+      <div class="article">
+        <h2 class="article-title">小白学开发，就来万事屋</h2>
+        <p class="article-date">发布日期：2023年7月1日</p>
+        <p class="article-content">
+          用GPT7天学会Web开发，关注公众号Magic万事屋
+        </p>
+      </div>
+      
+      <div class="article">
+        <h2 class="article-title">小白学开发，就来万事屋</h2>
+        <p class="article-date">发布日期：2023年7月5日</p>
+        <p class="article-content">
+          用GPT7天学会Web开发，关注公众号Magic万事屋
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
